@@ -38,6 +38,7 @@ System.out.println("1");
     @RequestMapping("queryBookList")
     @ResponseBody
     public List<BookBean> queryBookList(){
+        System.out.println("122223");
         List<BookBean> list=bookService.queryBookList();
         return list;
     }
