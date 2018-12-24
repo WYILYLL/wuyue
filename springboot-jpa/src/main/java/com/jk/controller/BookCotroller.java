@@ -29,6 +29,7 @@ public class BookCotroller {
     @RequestMapping("toBook")
     public String toBook(){
         System.out.println("123");
+        System.out.println("122223");
 
         return "book";
     }
